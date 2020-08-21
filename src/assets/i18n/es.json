@@ -1,0 +1,20 @@
+{
+    "principal" : {
+        "titleHeader" : "Farmacia",
+        "idioma1" : "Español",
+        "idioma2" : "Inglés",
+        "medicine_btn1" : "Quitar",
+        "medicine_btn2" : "Comprar",
+        "newMedicine_title" : "Nuevo medicamento",
+        "newMedicine_input1" : "Nombre",
+        "newMedicine_input2" : "Precio",
+        "newMedicine_input3" : "Stock",
+        "newMedicine_input4" : "Estantes",
+        "newMedicine_input5" : "Proveedores",
+        "newMedicine_btn1" : "Cancelar",
+        "newMedicine_btn2" : "Agregar",
+        "newMedicine_place1" : "Ingrese el nombre",
+        "newMedicine_place2" : "Ingrese el precio",
+        "mensajeError" : "Ingrese todos los campos"
+    }
+}

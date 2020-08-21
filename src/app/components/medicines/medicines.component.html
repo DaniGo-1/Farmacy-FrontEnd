@@ -1,0 +1,29 @@
+<div style="width: 95%; margin: 0 auto;" class="animated fadeIn">
+    <br>
+    <mat-grid-list cols="{{cols}}" rowHeight="200px" gutterSize="25px">
+        <mat-grid-tile>
+            <button mat-button color="primary" routerLink="new-med"
+                style="width: 335px; height: 183px;border-width: 1px;border-color: #A9D0F5;border-style: solid;">
+                <mat-icon style="transform: scale(2);">add</mat-icon>
+            </button>
+        </mat-grid-tile>
+        <mat-grid-tile *ngFor="let item of data">
+            <mat-card style="width: 300px;height: 150px;">
+                <mat-card-content fxLayout="row">
+                    <img src="https://colsubsidio.vteximg.com.br/arquivos/ids/162707-1200-1200/7703763270644.jpg?v=637212594131970000"
+                        alt="medicamento" style="width: 100px;">
+                    <div fxLayout="column" fxLayoutAlign="space-evenly">
+                        <mat-card-title>{{item.name}}</mat-card-title>
+                        <label style="font-size: 18px; color: #A4A4A4">Precio: Q{{item.price}}</label>
+                        <label style="font-size: 18px; color: #A4A4A4;">Stock: {{item.stock}}</label>
+                    </div>
+                </mat-card-content>
+                <mat-card-actions fxLayout="row" fxLayoutAlign="end center">
+                    <button mat-button color="warn">{{ 'principal.medicine_btn2' | translate }}</button>
+                    <button mat-button color="primary">{{ 'principal.medicine_btn1' | translate }}</button>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list>
+    <br>
+</div>

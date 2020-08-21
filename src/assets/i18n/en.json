@@ -1,0 +1,20 @@
+{
+    "principal" : {
+        "titleHeader" : "Pharmacy",
+        "idioma1" : "Spanish",
+        "idioma2" : "English",
+        "medicine_btn1" : "To buy",
+        "medicine_btn2" : "Remove",
+        "newMedicine_title" : "New medicine",
+        "newMedicine_input1" : "Name",
+        "newMedicine_input2" : "Price",
+        "newMedicine_input3" : "Stock",
+        "newMedicine_input4" : "Shelves",
+        "newMedicine_input5" : "Providers",
+        "newMedicine_btn1" : "Cancel",
+        "newMedicine_btn2" : "Add",
+        "newMedicine_place1" : "Enter name",
+        "newMedicine_place2" : "Enter the price",
+        "mensajeError" : "Enter all fields"
+    }
+}
